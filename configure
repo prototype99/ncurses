@@ -3955,7 +3955,7 @@ fi
 esac
 
 test -z "$PKG_CONFIG" && PKG_CONFIG=none
-if test "$PKG_CONFIG" != none ; then
+if false ; then
 
 if test "x$prefix" != xNONE; then
 	cf_path_syntax="$prefix"
@@ -27063,7 +27063,7 @@ echo "$as_me:27062: checking for library subsets" >&5
 echo $ECHO_N "checking for library subsets... $ECHO_C" >&6
 LIB_SUBSETS=
 
-if test "x$cf_with_progs" = xyes || test "$with_ticlib" != no || test "$with_termcap" != no; then
+if true; then
 	LIB_SUBSETS="${LIB_SUBSETS}ticlib"
 	if test "$with_ticlib" != no ; then
 		LIB_SUBSETS="${LIB_SUBSETS} "

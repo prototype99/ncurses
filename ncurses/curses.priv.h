@@ -2090,6 +2090,8 @@ extern NCURSES_EXPORT(int) _nc_wacs_width(unsigned);
 
 /* charable.c */
 #if USE_WIDEC_SUPPORT
+#include <wchar.h>
+
 extern NCURSES_EXPORT(bool) _nc_is_charable(wchar_t);
 extern NCURSES_EXPORT(int) _nc_to_char(wint_t);
 extern NCURSES_EXPORT(wint_t) _nc_to_widechar(int);
